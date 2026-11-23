@@ -1,0 +1,4518 @@
+{
+  "events": {
+    "freeze_sample": 59040,
+    "release_sample": 124928
+  },
+  "capture": {
+    "mode": "multi",
+    "phase_jump_bins": 4,
+    "coherent_bins": 819,
+    "top_frequencies_hz": [
+      210.94,
+      234.38,
+      187.5,
+      257.81,
+      445.31
+    ],
+    "dc_magnitude": 10.824003352590038,
+    "near_silence": false
+  },
+  "frame_reports": [
+    {
+      "state": "live",
+      "live_rms_db": -53.320323331234505,
+      "frozen_rms_db": -62.35122319379343,
+      "output_rms_db": -239.92655939930427,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -39.64423976113766,
+      "frozen_rms_db": -40.52774081387803,
+      "output_rms_db": -239.99998749354364,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -31.984999698972185,
+      "frozen_rms_db": -28.529727541608956,
+      "output_rms_db": -239.99998280904808,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -31.679635498213045,
+      "frozen_rms_db": -21.168388427845702,
+      "output_rms_db": -239.99997305347983,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -30.00554671714599,
+      "frozen_rms_db": -16.873620072909027,
+      "output_rms_db": -239.99995064411618,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -32.28806700307036,
+      "frozen_rms_db": -14.57877106989956,
+      "output_rms_db": -239.99991426162413,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -33.67912791897452,
+      "frozen_rms_db": -13.521965090939592,
+      "output_rms_db": -239.9998351588742,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -34.883426717789334,
+      "frozen_rms_db": -13.134547670329773,
+      "output_rms_db": -19.074012734690303,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -32.10227870748741,
+      "frozen_rms_db": -13.022585985474066,
+      "output_rms_db": -10.868399325193415,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -31.230271118711443,
+      "frozen_rms_db": -12.961933959207565,
+      "output_rms_db": -9.039736793369348,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -29.421597830850487,
+      "frozen_rms_db": -12.891892084976568,
+      "output_rms_db": -9.71691746386307,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -33.3053320388876,
+      "frozen_rms_db": -12.83166977361038,
+      "output_rms_db": -7.617282749199231,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -34.42563202044509,
+      "frozen_rms_db": -12.771369248526428,
+      "output_rms_db": -9.022606304664214,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -33.0045327101726,
+      "frozen_rms_db": -12.704009915715414,
+      "output_rms_db": -8.624899050999112,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -32.67252599368598,
+      "frozen_rms_db": -12.64859927167416,
+      "output_rms_db": -8.552874419906617,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -29.112151296183164,
+      "frozen_rms_db": -12.587077966552268,
+      "output_rms_db": -9.480266937082606,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -31.20341039392838,
+      "frozen_rms_db": -12.523987355678734,
+      "output_rms_db": -8.37690414795549,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -32.720462584202906,
+      "frozen_rms_db": -12.471623062883733,
+      "output_rms_db": -7.48565448807944,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -34.791335465122,
+      "frozen_rms_db": -12.40975117508334,
+      "output_rms_db": -8.77405913093368,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -32.06486185149403,
+      "frozen_rms_db": -12.352616939795006,
+      "output_rms_db": -8.14552312690801,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -31.512741948354773,
+      "frozen_rms_db": -12.301734096671009,
+      "output_rms_db": -8.445830325926693,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -27.69613082822945,
+      "frozen_rms_db": -12.240654584940362,
+      "output_rms_db": -9.647944631844071,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -32.52388008915809,
+      "frozen_rms_db": -12.189366077994723,
+      "output_rms_db": -6.757104147830493,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -32.158400928479466,
+      "frozen_rms_db": -12.138515730859767,
+      "output_rms_db": -8.411709018876127,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -34.10248798467794,
+      "frozen_rms_db": -12.080726551330237,
+      "output_rms_db": -7.76540064043937,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -33.24349864289672,
+      "frozen_rms_db": -12.035304596483247,
+      "output_rms_db": -8.011125610763813,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -29.42266654935292,
+      "frozen_rms_db": -11.984348553351547,
+      "output_rms_db": -8.795212464294918,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -28.301984545177064,
+      "frozen_rms_db": -11.931208783482516,
+      "output_rms_db": -8.520229239132973,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -33.574765050158504,
+      "frozen_rms_db": -11.888823331664064,
+      "output_rms_db": -6.358177021718825,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -32.56469587161871,
+      "frozen_rms_db": -11.837599695151692,
+      "output_rms_db": -8.443320140827748,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -32.77555137293794,
+      "frozen_rms_db": -11.79097111377708,
+      "output_rms_db": -7.10368458495759,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -32.51396595770098,
+      "frozen_rms_db": -11.750534567403186,
+      "output_rms_db": -7.998129837981054,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -27.90891141286562,
+      "frozen_rms_db": -11.70017205632345,
+      "output_rms_db": -9.059608751982914,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -30.42860965202565,
+      "frozen_rms_db": -11.665511416316573,
+      "output_rms_db": -6.878364633559144,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -31.720480498328314,
+      "frozen_rms_db": -11.641040446226533,
+      "output_rms_db": -6.947088215234687,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -33.81569445122298,
+      "frozen_rms_db": -11.609625454036578,
+      "output_rms_db": -7.555593973548856,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -32.61369161743041,
+      "frozen_rms_db": -11.593918786968704,
+      "output_rms_db": -7.174087147810391,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -30.054226039171724,
+      "frozen_rms_db": -11.57535977513624,
+      "output_rms_db": -8.213410707297147,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -27.361601712362692,
+      "frozen_rms_db": -11.533460204146945,
+      "output_rms_db": -8.217320645474157,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -31.779912664805963,
+      "frozen_rms_db": -11.483906709602902,
+      "output_rms_db": -6.16534158960248,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -31.48301321492886,
+      "frozen_rms_db": -11.441556301421514,
+      "output_rms_db": -7.662320898738091,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -33.11566081287424,
+      "frozen_rms_db": -11.416504967913967,
+      "output_rms_db": -6.716624976648974,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -33.45797929104377,
+      "frozen_rms_db": -11.378664538444369,
+      "output_rms_db": -7.665097066470845,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -28.633070571140262,
+      "frozen_rms_db": -11.317899811376781,
+      "output_rms_db": -8.270411037190046,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -28.37337857567881,
+      "frozen_rms_db": -11.284327379650097,
+      "output_rms_db": -7.160233103496356,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -31.686016876576772,
+      "frozen_rms_db": -11.273995476423547,
+      "output_rms_db": -6.326385473673262,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -31.95294705568484,
+      "frozen_rms_db": -11.257837440059879,
+      "output_rms_db": -7.081170460372319,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -32.15274149606871,
+      "frozen_rms_db": -11.262104040300578,
+      "output_rms_db": -6.597422231430697,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -31.18513678307883,
+      "frozen_rms_db": -11.269898173818365,
+      "output_rms_db": -7.713041502938001,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -28.287162591545247,
+      "frozen_rms_db": -11.245566850556731,
+      "output_rms_db": -7.786394192903128,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -29.327530812722333,
+      "frozen_rms_db": -11.200329955305062,
+      "output_rms_db": -6.536330639989687,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -31.550900235912035,
+      "frozen_rms_db": -11.167114069948427,
+      "output_rms_db": -6.686009265991935,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -32.65954826728391,
+      "frozen_rms_db": -11.159548992613772,
+      "output_rms_db": -6.676257788855262,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -32.23091040797198,
+      "frozen_rms_db": -11.136605616391504,
+      "output_rms_db": -7.178856056404896,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -29.068200986309108,
+      "frozen_rms_db": -11.086342885729916,
+      "output_rms_db": -7.56628429125167,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -27.97233945896696,
+      "frozen_rms_db": -11.050970513818948,
+      "output_rms_db": -6.950574906254588,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -29.621817221910234,
+      "frozen_rms_db": -11.018654982694272,
+      "output_rms_db": -6.825053559445662,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -31.903373841850655,
+      "frozen_rms_db": -10.983068337435908,
+      "output_rms_db": -6.241203365161116,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -31.43586016543454,
+      "frozen_rms_db": -10.989261553086468,
+      "output_rms_db": -6.478942635241088,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -32.557874117993585,
+      "frozen_rms_db": -11.011426246639333,
+      "output_rms_db": -7.500412769401551,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -29.007030170902283,
+      "frozen_rms_db": -11.007421826569283,
+      "output_rms_db": -7.254600672329492,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -28.934341016109286,
+      "frozen_rms_db": -10.981554983777173,
+      "output_rms_db": -6.640860839975716,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -29.639941912124122,
+      "frozen_rms_db": -10.954363526079332,
+      "output_rms_db": -6.617640544966813,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -32.4233742278348,
+      "frozen_rms_db": -10.949863336740886,
+      "output_rms_db": -5.974123542797627,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -30.610208347942024,
+      "frozen_rms_db": -10.946519881427921,
+      "output_rms_db": -7.075935542467237,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -30.327646235219206,
+      "frozen_rms_db": -10.92405740377626,
+      "output_rms_db": -6.93879129043525,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -29.14606103414933,
+      "frozen_rms_db": -10.908952787476887,
+      "output_rms_db": -6.851008669923279,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -28.45379198291033,
+      "frozen_rms_db": -10.88915371734629,
+      "output_rms_db": -7.079705109721082,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -31.698645690039804,
+      "frozen_rms_db": -10.861893399580673,
+      "output_rms_db": -6.206577348847933,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -31.06173947592355,
+      "frozen_rms_db": -10.862682611786738,
+      "output_rms_db": -5.97335066022982,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -31.505836053334136,
+      "frozen_rms_db": -10.869664023875117,
+      "output_rms_db": -7.609206550527313,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -29.41524568610395,
+      "frozen_rms_db": -10.869204675909913,
+      "output_rms_db": -6.571167028203475,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -29.894742916327655,
+      "frozen_rms_db": -10.871681097628851,
+      "output_rms_db": -6.640691980565643,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -28.0326695973999,
+      "frozen_rms_db": -10.863715143588074,
+      "output_rms_db": -7.292660706291403,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -32.69300239437942,
+      "frozen_rms_db": -10.863275935528769,
+      "output_rms_db": -5.328844862136217,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -29.913363788195486,
+      "frozen_rms_db": -10.874503830795565,
+      "output_rms_db": -7.097120112456804,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -32.148780560740946,
+      "frozen_rms_db": -10.876297580727407,
+      "output_rms_db": -6.809968351795175,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -30.352847161222538,
+      "frozen_rms_db": -10.885918437351815,
+      "output_rms_db": -6.666215722823195,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -29.308008713478884,
+      "frozen_rms_db": -10.897480861693714,
+      "output_rms_db": -6.958539882815491,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -28.886578486564176,
+      "frozen_rms_db": -10.900786828978122,
+      "output_rms_db": -6.904539264260132,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -32.058351373396164,
+      "frozen_rms_db": -10.916399573406881,
+      "output_rms_db": -5.338505704922595,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -29.5595639256157,
+      "frozen_rms_db": -10.929109168521096,
+      "output_rms_db": -7.883992010604723,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -30.935329394744564,
+      "frozen_rms_db": -10.93813102584627,
+      "output_rms_db": -6.101365466445053,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -31.233742070009015,
+      "frozen_rms_db": -10.958954508629597,
+      "output_rms_db": -6.9189923075253095,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -28.319502161579603,
+      "frozen_rms_db": -10.971784860023327,
+      "output_rms_db": -7.601227862465452,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -31.09866034008502,
+      "frozen_rms_db": -10.987091630321245,
+      "output_rms_db": -5.883265378190178,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -30.101087962712914,
+      "frozen_rms_db": -11.01119079239204,
+      "output_rms_db": -6.378795030772838,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -31.826614638305372,
+      "frozen_rms_db": -11.025428310135819,
+      "output_rms_db": -7.409597996110908,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -31.211349661396113,
+      "frozen_rms_db": -11.04761531816488,
+      "output_rms_db": -6.192923943282153,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -31.20433102987015,
+      "frozen_rms_db": -11.073017957618806,
+      "output_rms_db": -7.28216066710556,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -27.940712348739748,
+      "frozen_rms_db": -11.089963657804386,
+      "output_rms_db": -7.439257498330436,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -31.74024891860858,
+      "frozen_rms_db": -11.118567446428823,
+      "output_rms_db": -5.511532793708841,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -29.478287451224737,
+      "frozen_rms_db": -11.144412002340477,
+      "output_rms_db": -7.7448455937318865,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -32.817442513169595,
+      "frozen_rms_db": -11.166139284073825,
+      "output_rms_db": -6.193224480735022,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -32.5462486382723,
+      "frozen_rms_db": -11.199786791236397,
+      "output_rms_db": -7.105233197926152,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -29.70552513508607,
+      "frozen_rms_db": -11.225635124398693,
+      "output_rms_db": -7.665086899458032,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -29.241776297488833,
+      "frozen_rms_db": -11.253409164186872,
+      "output_rms_db": -6.879410454774831,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -30.451110316341484,
+      "frozen_rms_db": -11.290267652581822,
+      "output_rms_db": -6.119495397217891,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -30.098393889345864,
+      "frozen_rms_db": -11.317252987915536,
+      "output_rms_db": -7.67877578952712,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -32.45746549908661,
+      "frozen_rms_db": -11.35182302568424,
+      "output_rms_db": -6.110464960504154,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -32.67356096093072,
+      "frozen_rms_db": -11.390029990795414,
+      "output_rms_db": -7.790911007209665,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -29.149901479034458,
+      "frozen_rms_db": -11.419431655002374,
+      "output_rms_db": -7.741673242916912,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -30.097110710415393,
+      "frozen_rms_db": -11.460289689598051,
+      "output_rms_db": -6.381470207887316,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -30.39160711550906,
+      "frozen_rms_db": -11.498734949017773,
+      "output_rms_db": -7.3569065597840115,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -33.21140245391934,
+      "frozen_rms_db": -11.53263496430423,
+      "output_rms_db": -6.781873170191735,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -33.170016532595454,
+      "frozen_rms_db": -11.578526030242566,
+      "output_rms_db": -6.984777090466624,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -31.51086422645921,
+      "frozen_rms_db": -11.616805638981225,
+      "output_rms_db": -8.034241470569613,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -29.339641737838416,
+      "frozen_rms_db": -11.656887462700144,
+      "output_rms_db": -7.352273401888128,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -29.807897120257465,
+      "frozen_rms_db": -11.707199607527423,
+      "output_rms_db": -6.911708846175079,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -30.615475525253544,
+      "frozen_rms_db": -11.74754794832278,
+      "output_rms_db": -7.387111630878449,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -33.63865324312354,
+      "frozen_rms_db": -11.79414311728284,
+      "output_rms_db": -6.544558271704506,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -33.902135394108214,
+      "frozen_rms_db": -11.844115618903096,
+      "output_rms_db": -8.284392870144643,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -30.75530563153533,
+      "frozen_rms_db": -11.884660782015333,
+      "output_rms_db": -7.987929907533365,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -30.07818252587498,
+      "frozen_rms_db": -11.93589482470256,
+      "output_rms_db": -7.3070043343037785,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -29.561849242437273,
+      "frozen_rms_db": -11.984839618590968,
+      "output_rms_db": -7.788881080017632,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -32.55384659210301,
+      "frozen_rms_db": -12.029516514121006,
+      "output_rms_db": -6.936093369325606,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -33.040876427371835,
+      "frozen_rms_db": -12.086635751122943,
+      "output_rms_db": -7.358614835604465,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -33.15357496467361,
+      "frozen_rms_db": -12.13627281820175,
+      "output_rms_db": -8.525660611225591,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -31.01484772463578,
+      "frozen_rms_db": -12.186742569784755,
+      "output_rms_db": -7.820622282644897,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -29.66986144214725,
+      "frozen_rms_db": -12.246701844231305,
+      "output_rms_db": -7.857485390297204,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -31.817912968921092,
+      "frozen_rms_db": -12.29674309474175,
+      "output_rms_db": -7.951330488800936,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -34.425034471168644,
+      "frozen_rms_db": -12.354689643532225,
+      "output_rms_db": -6.846368636272433,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -33.803243439530426,
+      "frozen_rms_db": -12.417970048044772,
+      "output_rms_db": -8.78423612741953,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -32.36082311790642,
+      "frozen_rms_db": -12.470492409416105,
+      "output_rms_db": -8.258105022071394,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -31.569420252633506,
+      "frozen_rms_db": -12.531308415308132,
+      "output_rms_db": -7.928129791528463,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -28.955618613442077,
+      "frozen_rms_db": -12.58931837856168,
+      "output_rms_db": -8.898798817396141,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -33.54718608531255,
+      "frozen_rms_db": -12.643201192808988,
+      "output_rms_db": -7.060854158319762,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -33.409121171492835,
+      "frozen_rms_db": -12.709940036015464,
+      "output_rms_db": -8.078224268382336,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -34.28605780721729,
+      "frozen_rms_db": -12.769270775590416,
+      "output_rms_db": -9.211969025208163,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -32.72273077094514,
+      "frozen_rms_db": -12.82890066575919,
+      "output_rms_db": -8.273815150792382,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -30.989582987554932,
+      "frozen_rms_db": -12.898042923273938,
+      "output_rms_db": -8.591696086183134,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -30.076315976917904,
+      "frozen_rms_db": -12.956888122804342,
+      "output_rms_db": -9.309359214762818,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -35.86705558857412,
+      "frozen_rms_db": -13.022106563624513,
+      "output_rms_db": -6.956404530499974,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -32.57855084325684,
+      "frozen_rms_db": -13.091630064501068,
+      "output_rms_db": -9.602279463965246,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -34.18691304963374,
+      "frozen_rms_db": -13.151295880416429,
+      "output_rms_db": -8.72237846885624,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -33.600876937275316,
+      "frozen_rms_db": -13.221573604157191,
+      "output_rms_db": -8.60839521426884,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -30.15035616203341,
+      "frozen_rms_db": -13.28981613424083,
+      "output_rms_db": -9.732292611787607,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -33.70026770595283,
+      "frozen_rms_db": -13.352110451609589,
+      "output_rms_db": -8.28560420924014,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -34.48655724285216,
+      "frozen_rms_db": -13.426131364660998,
+      "output_rms_db": -8.055387410914882,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -33.97094475451045,
+      "frozen_rms_db": -13.492552304761382,
+      "output_rms_db": -10.417792481855548,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -34.36305592554583,
+      "frozen_rms_db": -13.558767241937609,
+      "output_rms_db": -8.524536028536247,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -33.29782685962378,
+      "frozen_rms_db": -13.634359552161522,
+      "output_rms_db": -9.367986081549143,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -29.668539078988346,
+      "frozen_rms_db": -13.699335880360808,
+      "output_rms_db": -10.300166692168077,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -36.65012661241587,
+      "frozen_rms_db": -13.77022483134645,
+      "output_rms_db": -7.679470679662861,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -32.89020490809577,
+      "frozen_rms_db": -13.845248845794558,
+      "output_rms_db": -10.222129318928632,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -35.00686872519467,
+      "frozen_rms_db": -13.910033965666775,
+      "output_rms_db": -9.546476942710324,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -35.41223732531597,
+      "frozen_rms_db": -13.98502763998231,
+      "output_rms_db": -9.198834333686756,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -32.13161599051552,
+      "frozen_rms_db": -14.057753980333272,
+      "output_rms_db": -10.351977898147393,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -31.7847968887356,
+      "frozen_rms_db": -14.124047935940471,
+      "output_rms_db": -9.976881496495198,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -35.743223551760636,
+      "frozen_rms_db": -14.201681880752066,
+      "output_rms_db": -8.222753158091274,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -32.86142186162544,
+      "frozen_rms_db": -14.271385794918658,
+      "output_rms_db": -11.416056224976545,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -36.20380792562953,
+      "frozen_rms_db": -14.340427135278642,
+      "output_rms_db": -9.104900668857482,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -35.80001437350067,
+      "frozen_rms_db": -14.41846249951964,
+      "output_rms_db": -10.120941947125058,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -31.565809742597946,
+      "frozen_rms_db": -14.485462573054232,
+      "output_rms_db": -10.97107625749718,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -34.83841480871355,
+      "frozen_rms_db": -14.55790709533273,
+      "output_rms_db": -9.152690455253714,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -34.147541744867446,
+      "frozen_rms_db": -14.633992468549216,
+      "output_rms_db": -10.121661491411372,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -34.69611952063046,
+      "frozen_rms_db": -14.699436831845578,
+      "output_rms_db": -10.761353327170562,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -36.94378649571782,
+      "frozen_rms_db": -14.774606492634287,
+      "output_rms_db": -9.536343942936904,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -34.28057615936582,
+      "frozen_rms_db": -14.846983547775967,
+      "output_rms_db": -11.082612095767601,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -31.814681156602347,
+      "frozen_rms_db": -14.912497763697292,
+      "output_rms_db": -10.850758288699307,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -35.40093528819061,
+      "frozen_rms_db": -14.98876061352014,
+      "output_rms_db": -9.40486525595406,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -33.27226230536062,
+      "frozen_rms_db": -15.056505523782784,
+      "output_rms_db": -11.5768867036963,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -36.400780531865664,
+      "frozen_rms_db": -15.123230247524692,
+      "output_rms_db": -10.045982825169833,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -37.99953800968044,
+      "frozen_rms_db": -15.198264414233664,
+      "output_rms_db": -10.729285069662327,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -33.770038791895026,
+      "frozen_rms_db": -15.26174218772995,
+      "output_rms_db": -11.60412037345425,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -33.94866588135067,
+      "frozen_rms_db": -15.330226539273005,
+      "output_rms_db": -10.591123643916177,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -33.89975758228811,
+      "frozen_rms_db": -15.401472192636925,
+      "output_rms_db": -10.565811310036477,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -34.44796330182417,
+      "frozen_rms_db": -15.46167846685658,
+      "output_rms_db": -11.44394323331445,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -37.90948221501674,
+      "frozen_rms_db": -15.531075596037777,
+      "output_rms_db": -10.227037475041225,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -36.88056725948217,
+      "frozen_rms_db": -15.596826683258431,
+      "output_rms_db": -11.646299118567725,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -33.83033888830057,
+      "frozen_rms_db": -15.655429388130555,
+      "output_rms_db": -11.518606143942947,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -34.66461227109444,
+      "frozen_rms_db": -15.723991023562151,
+      "output_rms_db": -10.813726081732202,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -34.078133789041466,
+      "frozen_rms_db": -15.783184591271276,
+      "output_rms_db": -11.99778438269587,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -36.00478149684159,
+      "frozen_rms_db": -15.841164080505727,
+      "output_rms_db": -10.709369586200026,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -38.91749160164927,
+      "frozen_rms_db": -15.906436259466027,
+      "output_rms_db": -11.27703475257862,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -35.46545956603523,
+      "frozen_rms_db": -15.959569355619765,
+      "output_rms_db": -12.071524952113965,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -34.779707179799395,
+      "frozen_rms_db": -16.017412811390056,
+      "output_rms_db": -11.438220173928519,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -33.29848043133356,
+      "frozen_rms_db": -16.076792518764712,
+      "output_rms_db": -11.833158335131253,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -34.83299569479934,
+      "frozen_rms_db": -16.124824007919578,
+      "output_rms_db": -11.663726960159295,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -37.58200137102192,
+      "frozen_rms_db": -16.181507305019526,
+      "output_rms_db": -11.06915208526404,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -39.356631932646984,
+      "frozen_rms_db": -16.233364954676453,
+      "output_rms_db": -12.11567566446625,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -35.8883934438243,
+      "frozen_rms_db": -16.27805154890488,
+      "output_rms_db": -12.109638517466223,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -35.28480639357538,
+      "frozen_rms_db": -16.33179593320088,
+      "output_rms_db": -11.762916120508677,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -32.98619790127747,
+      "frozen_rms_db": -16.375144217252693,
+      "output_rms_db": -13.02458509443894,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -36.960309933856955,
+      "frozen_rms_db": -16.417364178128516,
+      "output_rms_db": -10.943033206541097,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -37.92080454797186,
+      "frozen_rms_db": -16.465632285479654,
+      "output_rms_db": -11.963917024884045,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -37.60629953951048,
+      "frozen_rms_db": -16.501253686598915,
+      "output_rms_db": -12.30791101063205,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -36.48429601392625,
+      "frozen_rms_db": -16.54154974665036,
+      "output_rms_db": -12.065717846532404,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -33.901051994824456,
+      "frozen_rms_db": -16.581909023099975,
+      "output_rms_db": -12.817585705535798,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -34.31528784738497,
+      "frozen_rms_db": -16.61082503176698,
+      "output_rms_db": -12.62838213506809,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -37.46297033709037,
+      "frozen_rms_db": -16.64799232212317,
+      "output_rms_db": -11.059726111545466,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -39.451502401605765,
+      "frozen_rms_db": -16.678997487665757,
+      "output_rms_db": -12.911176210029673,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -37.02053913465986,
+      "frozen_rms_db": -16.703206620020048,
+      "output_rms_db": -12.212476513736068,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -36.73897035814425,
+      "frozen_rms_db": -16.73561669576356,
+      "output_rms_db": -12.392435497390847,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -32.37407627179788,
+      "frozen_rms_db": -16.756628263373543,
+      "output_rms_db": -13.802193376067631,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -37.079829845070456,
+      "frozen_rms_db": -16.776996626986197,
+      "output_rms_db": -11.437420803454126,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -37.511971275385264,
+      "frozen_rms_db": -16.802110944089954,
+      "output_rms_db": -12.238442142356817,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -39.50129686542602,
+      "frozen_rms_db": -16.814283702803618,
+      "output_rms_db": -12.567696490201222,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -38.044626114453735,
+      "frozen_rms_db": -16.83148415395815,
+      "output_rms_db": -12.41410918997717,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -35.131855404795196,
+      "frozen_rms_db": -16.847303189888386,
+      "output_rms_db": -13.140501931322408,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -32.82406152001245,
+      "frozen_rms_db": -16.85195703830268,
+      "output_rms_db": -13.795224519598946,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -38.66765703906633,
+      "frozen_rms_db": -16.864732173071637,
+      "output_rms_db": -10.890501458766352,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -37.23588677415117,
+      "frozen_rms_db": -16.87009263040803,
+      "output_rms_db": -13.383327690722242,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -38.17691558638287,
+      "frozen_rms_db": -16.869516938516334,
+      "output_rms_db": -12.135568967783142,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -37.99343209927718,
+      "frozen_rms_db": -16.87651693365174,
+      "output_rms_db": -12.72921198431189,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -33.2147331582953,
+      "frozen_rms_db": -16.871384847571868,
+      "output_rms_db": -13.984717616281383,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -34.624475057204776,
+      "frozen_rms_db": -16.866546947331823,
+      "output_rms_db": -12.358328166140577,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -38.08816784980198,
+      "frozen_rms_db": -16.86534388284587,
+      "output_rms_db": -11.65453620794403,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -38.757001942704285,
+      "frozen_rms_db": -16.85125986373076,
+      "output_rms_db": -13.136901605243585,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -38.1959851237408,
+      "frozen_rms_db": -16.842983868306806,
+      "output_rms_db": -12.13942255325906,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -36.23470000105582,
+      "frozen_rms_db": -16.832170066042647,
+      "output_rms_db": -13.22494917720431,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -32.36445602462871,
+      "frozen_rms_db": -16.8109160682375,
+      "output_rms_db": -13.856439672292368,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -37.633073492477905,
+      "frozen_rms_db": -16.798027448238823,
+      "output_rms_db": -11.39272060138766,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -36.719029552076634,
+      "frozen_rms_db": -16.77678227755465,
+      "output_rms_db": -12.70532451791318,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -38.81242761428762,
+      "frozen_rms_db": -16.750868142348942,
+      "output_rms_db": -12.161920695088757,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -38.95550053785079,
+      "frozen_rms_db": -16.732269034194825,
+      "output_rms_db": -12.659878066303056,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -34.22038897305005,
+      "frozen_rms_db": -16.701229239682394,
+      "output_rms_db": -13.632712755772001,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -33.026092382764396,
+      "frozen_rms_db": -16.67178515596419,
+      "output_rms_db": -12.864553046771404,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -37.182407650083256,
+      "frozen_rms_db": -16.645268771959593,
+      "output_rms_db": -11.288624634026762,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -36.835784066490284,
+      "frozen_rms_db": -16.60630406915342,
+      "output_rms_db": -12.993266274836587,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -37.551029270448836,
+      "frozen_rms_db": -16.57424511146449,
+      "output_rms_db": -11.756866087000253,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -37.12474273826689,
+      "frozen_rms_db": -16.53894237190056,
+      "output_rms_db": -12.995712331829123,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -32.934945373043035,
+      "frozen_rms_db": -16.49425196308083,
+      "output_rms_db": -13.409707373371214,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -34.53650939836177,
+      "frozen_rms_db": -16.458484929445703,
+      "output_rms_db": -11.916803332833585,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -36.92819443715025,
+      "frozen_rms_db": -16.413851480829887,
+      "output_rms_db": -11.922961260127153,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -37.3610711191971,
+      "frozen_rms_db": -16.365905375171526,
+      "output_rms_db": -11.941003753065145,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -37.84396680081036,
+      "frozen_rms_db": -16.324480465936666,
+      "output_rms_db": -12.174249692250168,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -34.887876726491946,
+      "frozen_rms_db": -16.269940140988503,
+      "output_rms_db": -12.936406944567576,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -33.09600767665255,
+      "frozen_rms_db": -16.219559326179688,
+      "output_rms_db": -12.529844178147231,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -35.006003498207875,
+      "frozen_rms_db": -16.17382058539817,
+      "output_rms_db": -11.552959439855744,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -36.126253771485935,
+      "frozen_rms_db": -16.116648520649214,
+      "output_rms_db": -11.851378571648112,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "entering",
+      "live_rms_db": -36.797681557602964,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -11.47507174165698,
+      "progress": 0.1111111111111111,
+      "note": ""
+    },
+    {
+      "state": "entering",
+      "live_rms_db": -37.66731774867682,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -12.73856058738284,
+      "progress": 0.2222222222222222,
+      "note": ""
+    },
+    {
+      "state": "entering",
+      "live_rms_db": -33.45810404275072,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -13.133866881521945,
+      "progress": 0.3333333333333333,
+      "note": ""
+    },
+    {
+      "state": "entering",
+      "live_rms_db": -33.40036619038061,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -14.449219494211981,
+      "progress": 0.4444444444444444,
+      "note": ""
+    },
+    {
+      "state": "entering",
+      "live_rms_db": -34.25704881713069,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -17.285405669255724,
+      "progress": 0.5555555555555556,
+      "note": ""
+    },
+    {
+      "state": "entering",
+      "live_rms_db": -36.53833806341194,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -17.702514300436828,
+      "progress": 0.6666666666666666,
+      "note": ""
+    },
+    {
+      "state": "entering",
+      "live_rms_db": -35.30928621193078,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -16.12926695013234,
+      "progress": 0.7777777777777778,
+      "note": ""
+    },
+    {
+      "state": "entering",
+      "live_rms_db": -35.579779867748286,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -14.529104003984145,
+      "progress": 0.8888888888888888,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -33.37856763086279,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -13.29515021052783,
+      "progress": 1.0,
+      "note": "freeze reached steady state"
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -33.56161052108218,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -13.708842176848643,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -34.73478388458621,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -17.451749851135695,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -35.84359106836455,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -16.48216944993993,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -36.16085982157208,
+      "frozen_rms_db": -15.566662976529582,
+      "output_rms_db": -11.66350011927555,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -33.979845778511326,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -10.399869631525734,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -34.082057951119424,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -16.574208977150644,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -32.11830082973353,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -20.12260914704938,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -35.90320287001812,
+      "frozen_rms_db": -15.566662976529582,
+      "output_rms_db": -10.705350668029375,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -34.06097925990607,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -10.270484509296658,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -35.81755634566239,
+      "frozen_rms_db": -15.566662976529582,
+      "output_rms_db": -13.225644719860298,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -33.341244186990764,
+      "frozen_rms_db": -15.566662976529582,
+      "output_rms_db": -20.693114681460898,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -33.304425892352654,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -17.79316500671129,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -31.821149534713726,
+      "frozen_rms_db": -15.566662976529582,
+      "output_rms_db": -12.23897673670119,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -35.4991200730289,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -10.000079158576822,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -33.094081630560716,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -17.13822778330824,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -34.741863360659046,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -17.89216695001449,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -34.38415995998643,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -15.590507326926975,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -31.856643113201095,
+      "frozen_rms_db": -15.566662976529582,
+      "output_rms_db": -15.327572686655937,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -32.76637071401948,
+      "frozen_rms_db": -15.566662976529582,
+      "output_rms_db": -12.810116818818134,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -34.08486283976213,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -15.924731918215649,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -34.37852440058994,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -19.27831757094063,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -33.79379831167748,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -14.062082001295359,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -34.170874054043175,
+      "frozen_rms_db": -15.566662976529582,
+      "output_rms_db": -16.94055222009831,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -30.378421987299692,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -16.047627151321734,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -34.040816181836426,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -16.435911955183265,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -31.844830907071184,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -17.670148150529954,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -34.858575437921345,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -15.83341147074513,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -33.880473221024566,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -20.370747625125727,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -32.260404261509514,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -15.53173588621737,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -30.32826577341521,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -19.42087081719212,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -32.89474091731917,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -20.424642794293856,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -31.973944859877506,
+      "frozen_rms_db": -15.566662976529582,
+      "output_rms_db": -18.436045006506983,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -34.40891097005387,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -19.237080150094098,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -34.696129974161025,
+      "frozen_rms_db": -15.566662976529582,
+      "output_rms_db": -15.233501765175673,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -30.54113793102822,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -19.203975329516904,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -31.163715688822254,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -18.954863123780697,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -32.11963666341528,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -17.879718137451942,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -33.41210485953654,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -18.051996659042317,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -33.65964108791205,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -15.157270869509247,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -32.79611040318523,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -17.391014458711346,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -29.87298598845861,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -12.660037480790338,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -30.70726494931278,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -18.270671882936497,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -239.99945518603883,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -17.501733248347758,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -239.99942654687175,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -13.989815753621135,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -239.99939519116762,
+      "frozen_rms_db": -15.566662976529582,
+      "output_rms_db": -14.088956528307426,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -239.99952138867175,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -15.578786929161506,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -239.99974332900996,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -13.906313251007207,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -239.99988029183118,
+      "frozen_rms_db": -15.566662976529582,
+      "output_rms_db": -15.467465561107092,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -239.9999709064213,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -16.08059196132877,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -14.623462339194443,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -15.934222516807049,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529582,
+      "output_rms_db": -13.062339846301775,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -15.648252931237593,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -16.37884228725587,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -17.945810769947215,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -17.477753458725637,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529582,
+      "output_rms_db": -14.146749771412026,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -13.455480023471104,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529582,
+      "output_rms_db": -16.773788629014426,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -18.096264921392432,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -17.190957857315027,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -16.499679488831752,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -12.432443079549923,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -19.154502509431165,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -16.769649470205035,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -14.951877934159498,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -19.860603351984523,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -15.157147279820755,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -14.904493105266033,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -15.022186879982712,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529582,
+      "output_rms_db": -16.180806778029794,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529582,
+      "output_rms_db": -16.55909392673195,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -15.132916476975593,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529582,
+      "output_rms_db": -14.510967379135959,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -14.939030734480312,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -19.390881315624345,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529582,
+      "output_rms_db": -11.035606973757703,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529582,
+      "output_rms_db": -12.327059921325667,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -14.372955089319035,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -18.207643365125534,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -18.261295735121948,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -11.48787500156792,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -9.445186070364706,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -16.004380820300725,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -16.55608072653188,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -15.31935951221631,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -11.414881133688423,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -12.097217019840192,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -15.621574463159094,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -14.270158281547536,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -14.610889722154653,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529582,
+      "output_rms_db": -12.997943083307053,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -12.89768041977576,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -19.918901080193237,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -17.273747228990946,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -12.682428533234448,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -13.07273169740494,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -15.832516353819601,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -17.20249600918485,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -15.299670498873482,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -15.48897786241942,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -14.14491643767387,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529582,
+      "output_rms_db": -13.684748852133122,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529582,
+      "output_rms_db": -16.54063412229179,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -19.098090557396485,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529582,
+      "output_rms_db": -18.3255688707984,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -12.005173165552666,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -15.6338805669686,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -23.04389237691791,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -15.742112862419365,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -15.269548963017776,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -14.178349448908044,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529582,
+      "output_rms_db": -14.069760155481966,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529582,
+      "output_rms_db": -20.853387193743377,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -13.794543710002385,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -14.222665368709404,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -13.869040963788596,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529582,
+      "output_rms_db": -15.215074632577865,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -15.325779851656128,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -13.121286288455815,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -12.944247724665308,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -16.603521439059257,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -14.87709509332073,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529582,
+      "output_rms_db": -15.140799849692492,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -14.317339980536854,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -15.019672407994562,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -17.642964655826447,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -19.646128187942324,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529582,
+      "output_rms_db": -15.189283739488262,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -16.400370907006817,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -18.570959814266384,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -19.464244476224792,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -20.05764375076744,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -16.552846490766598,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -17.116690682867507,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529582,
+      "output_rms_db": -24.111507665034196,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -16.45525267886835,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -17.611914436600507,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -18.837906461742666,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -21.861361217475874,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529582,
+      "output_rms_db": -18.611684369287474,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -17.84753087333704,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -15.383858850876857,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -19.923439790067235,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -18.98168258161318,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -16.83756057891019,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529582,
+      "output_rms_db": -16.83639558526814,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -19.926315281702784,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -14.66612464303184,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -18.974228341962828,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -13.93975422418012,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -13.76252444027838,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -15.74926794145729,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -19.281199214727735,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -14.946749288477875,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -11.130932589822562,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -13.106885640713022,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -18.586544464035832,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -17.944916323704355,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -12.002636761609581,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529582,
+      "output_rms_db": -12.62891493465955,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -14.548848127172207,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -24.55372676770887,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529582,
+      "output_rms_db": -17.743400168941413,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -11.948584484230413,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -13.044888236564017,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -19.511872482690713,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -21.419086699010723,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -18.357734825622096,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -14.809721185203106,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -11.449689977651518,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -20.005727213453813,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -20.269482367233813,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -16.91509673549962,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -15.129946632244998,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -13.990012089249454,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -14.547205567423994,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -14.640324153980504,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -18.23860437850009,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -15.47271523057369,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -12.439183912024204,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -17.034723464078887,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529582,
+      "output_rms_db": -17.64185431971532,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -17.38439602671378,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -12.252386201005496,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -11.815232964640591,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529582,
+      "output_rms_db": -18.41025436828319,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -20.159451146262718,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -14.925015571407464,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -10.699219569287763,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -12.810943644026967,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -15.914248826468992,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -14.358622902882798,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -14.922524817738879,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529582,
+      "output_rms_db": -11.069330062507522,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -15.074753769812189,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -16.763753272690547,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -12.581016810629995,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -12.746271654707254,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -17.863811601235554,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -16.52044141953801,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -17.079009621679692,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -12.809170971799615,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -14.253703853188945,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -19.41197189723533,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -20.914240143078445,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -20.149919162839907,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -15.040359245766673,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -15.077969177392012,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529582,
+      "output_rms_db": -16.936788331578875,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -22.995928777786826,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -15.590876556623535,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529582,
+      "output_rms_db": -16.720122750221172,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -16.760536350202177,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -18.00874272850639,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -17.040331711603407,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -15.50278712105763,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -14.444601755668307,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -18.21415633755698,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -19.664953497698637,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529582,
+      "output_rms_db": -22.000413673118228,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -15.43257883647582,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -13.338600301738008,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529582,
+      "output_rms_db": -17.977798303596643,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -16.407538474733524,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -17.69380942342221,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -16.921198444875127,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -13.539258641607802,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -13.736132875857294,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -20.167853137877817,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529582,
+      "output_rms_db": -14.778417876524724,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529582,
+      "output_rms_db": -16.414061729491493,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -14.849480544063802,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -13.87107390630617,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529582,
+      "output_rms_db": -16.20746072429245,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -18.067151794356256,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -15.664643702557948,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -18.49164391273797,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -13.749810448382703,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -16.180828630658684,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -21.427632202176362,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -20.91094895073656,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529582,
+      "output_rms_db": -21.904881059901978,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -15.580614676486594,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -15.984548033973924,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -19.72309587810862,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -20.356738474397854,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "frozen",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -16.915562289401407,
+      "progress": 1.0,
+      "note": ""
+    },
+    {
+      "state": "exiting",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -16.92383343853466,
+      "progress": 0.9473684210526316,
+      "note": ""
+    },
+    {
+      "state": "exiting",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -16.437275323848837,
+      "progress": 0.8947368421052632,
+      "note": ""
+    },
+    {
+      "state": "exiting",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -19.700907575620505,
+      "progress": 0.8421052631578947,
+      "note": ""
+    },
+    {
+      "state": "exiting",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -18.94353697283313,
+      "progress": 0.7894736842105263,
+      "note": ""
+    },
+    {
+      "state": "exiting",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -20.714905199938542,
+      "progress": 0.736842105263158,
+      "note": ""
+    },
+    {
+      "state": "exiting",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -19.927366720821915,
+      "progress": 0.6842105263157895,
+      "note": ""
+    },
+    {
+      "state": "exiting",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -20.174325779371642,
+      "progress": 0.631578947368421,
+      "note": ""
+    },
+    {
+      "state": "exiting",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -20.409036523494066,
+      "progress": 0.5789473684210527,
+      "note": ""
+    },
+    {
+      "state": "exiting",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -20.668536683317953,
+      "progress": 0.5263157894736843,
+      "note": ""
+    },
+    {
+      "state": "exiting",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -20.996826596768248,
+      "progress": 0.4736842105263158,
+      "note": ""
+    },
+    {
+      "state": "exiting",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -21.39923036589215,
+      "progress": 0.42105263157894735,
+      "note": ""
+    },
+    {
+      "state": "exiting",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -21.88282972239017,
+      "progress": 0.368421052631579,
+      "note": ""
+    },
+    {
+      "state": "exiting",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -22.45701879491677,
+      "progress": 0.3157894736842105,
+      "note": ""
+    },
+    {
+      "state": "exiting",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -23.134340840466393,
+      "progress": 0.26315789473684215,
+      "note": ""
+    },
+    {
+      "state": "exiting",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -23.93178233556683,
+      "progress": 0.21052631578947367,
+      "note": ""
+    },
+    {
+      "state": "exiting",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -24.87284150715251,
+      "progress": 0.1578947368421053,
+      "note": ""
+    },
+    {
+      "state": "exiting",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -25.990970425893348,
+      "progress": 0.10526315789473684,
+      "note": ""
+    },
+    {
+      "state": "exiting",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -15.566662976529583,
+      "output_rms_db": -27.335575615138787,
+      "progress": 0.052631578947368474,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -240.0,
+      "output_rms_db": -28.983002247073223,
+      "progress": 0.0,
+      "note": "exit complete"
+    },
+    {
+      "state": "live",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -240.0,
+      "output_rms_db": -31.07008829336992,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -240.0,
+      "output_rms_db": -33.85860360913706,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -240.0,
+      "output_rms_db": -37.75782098447107,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -240.0,
+      "output_rms_db": -43.97684551141694,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -240.0,
+      "output_rms_db": -52.40432693739607,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -240.0,
+      "output_rms_db": -67.04222760817403,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -240.0,
+      "output_rms_db": -239.99999713705984,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -240.0,
+      "output_rms_db": -240.0,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -240.0,
+      "output_rms_db": -240.0,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -240.0,
+      "output_rms_db": -240.0,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -240.0,
+      "output_rms_db": -240.0,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -240.0,
+      "output_rms_db": -240.0,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -240.0,
+      "output_rms_db": -240.0,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -240.0,
+      "output_rms_db": -240.0,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -240.0,
+      "output_rms_db": -240.0,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -240.0,
+      "output_rms_db": -240.0,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -240.0,
+      "output_rms_db": -240.0,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -240.0,
+      "output_rms_db": -240.0,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -240.0,
+      "output_rms_db": -240.0,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -240.0,
+      "output_rms_db": -240.0,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -240.0,
+      "output_rms_db": -240.0,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -240.0,
+      "output_rms_db": -240.0,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -240.0,
+      "output_rms_db": -240.0,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -240.0,
+      "output_rms_db": -240.0,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -240.0,
+      "output_rms_db": -240.0,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -240.0,
+      "output_rms_db": -240.0,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -240.0,
+      "output_rms_db": -240.0,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -240.0,
+      "output_rms_db": -240.0,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -240.0,
+      "output_rms_db": -240.0,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -240.0,
+      "output_rms_db": -240.0,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -240.0,
+      "output_rms_db": -240.0,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -240.0,
+      "output_rms_db": -240.0,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -240.0,
+      "output_rms_db": -240.0,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -240.0,
+      "output_rms_db": -240.0,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -240.0,
+      "output_rms_db": -240.0,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -240.0,
+      "output_rms_db": -240.0,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -240.0,
+      "output_rms_db": -240.0,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -240.0,
+      "output_rms_db": -240.0,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -240.0,
+      "output_rms_db": -240.0,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -240.0,
+      "output_rms_db": -240.0,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -240.0,
+      "output_rms_db": -240.0,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -240.0,
+      "output_rms_db": -240.0,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -240.0,
+      "output_rms_db": -240.0,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -240.0,
+      "output_rms_db": -240.0,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -240.0,
+      "output_rms_db": -240.0,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -240.0,
+      "output_rms_db": -240.0,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -240.0,
+      "output_rms_db": -240.0,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -240.0,
+      "output_rms_db": -240.0,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -240.0,
+      "output_rms_db": -240.0,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -240.0,
+      "output_rms_db": -240.0,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -240.0,
+      "output_rms_db": -240.0,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -240.0,
+      "output_rms_db": -240.0,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -240.0,
+      "output_rms_db": -240.0,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -240.0,
+      "output_rms_db": -240.0,
+      "progress": 0.0,
+      "note": ""
+    },
+    {
+      "state": "live",
+      "live_rms_db": -240.0,
+      "frozen_rms_db": -240.0,
+      "output_rms_db": -240.0,
+      "progress": 0.0,
+      "note": ""
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "signal": "homemade_musical",
+    "offline_realtime_max_abs_diff": 0.0,
+    "capture_mode": "single",
+    "phase_jump_bins": 0,
+    "median_frozen_frequency_hz": 219.998,
+    "frequency_drift_hz_peak_to_peak": 0.0,
+    "amplitude_fluctuation_cv": 0.0674,
+    "entry_max_sample_step": 0.0232,
+    "exit_max_sample_step": 0.00287,
+    "baseline_p99_sample_step": 0.0384,
+    "engine_input_tail_rms": 0.0,
+    "output_tail_rms": 0.24461,
+    "frozen_only_energy_audible": true
+  },
+  {
+    "signal": "synthetic_ambient",
+    "offline_realtime_max_abs_diff": 0.0,
+    "capture_mode": "single",
+    "phase_jump_bins": 0,
+    "median_frozen_frequency_hz": 608.549,
+    "frequency_drift_hz_peak_to_peak": 0.0,
+    "amplitude_fluctuation_cv": 0.1772,
+    "entry_max_sample_step": 0.00263,
+    "exit_max_sample_step": 0.00089,
+    "baseline_p99_sample_step": 0.00497,
+    "engine_input_tail_rms": 0.0,
+    "output_tail_rms": 0.03845,
+    "frozen_only_energy_audible": true
+  }
+]
