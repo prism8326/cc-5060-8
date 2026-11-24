@@ -53,8 +53,13 @@ class STFT:
     # ------------------------------------------------------------------ #
     # Analysis
     # ------------------------------------------------------------------ #
-    def analysis(self, hop_samples: np.ndarray) -> np.ndarray:
-        """Push one hop of input and return the rFFT of the windowed frame."""
+    def push(self, hop_samples: np.ndarray) -> None:
+        """Advance the analysis buffer by one hop without transforming it.
+
+        The frozen path uses this to keep the window primed while no live
+        spectrum is needed; a later exit can then resume analysis at a hop
+        boundary with no gap in the input history.
+        """
         if hop_samples.shape != (self.block_size, self.channels):
             raise ValueError(
                 f"expected shape ({self.block_size}, {self.channels}), "
@@ -62,6 +67,10 @@ class STFT:
             )
         self._in_buf = np.roll(self._in_buf, -self.block_size, axis=0)
         self._in_buf[self.fft_size - self.block_size :, :] = hop_samples
+
+    def analysis(self, hop_samples: np.ndarray) -> np.ndarray:
+        """Push one hop of input and return the rFFT of the windowed frame."""
+        self.push(hop_samples)
         windowed = self._in_buf * self.window[:, None]
         return np.fft.rfft(windowed, n=self.fft_size, axis=0)
 

@@ -195,6 +195,7 @@ class FreezeWindow(QtWidgets.QMainWindow):
         self.playing = False
         self.frozen_armed_at: float | None = None
         self.release_at: float | None = None
+        self._audition_stream = None
         self.timer = QtCore.QTimer(self)
         self.timer.setInterval(40)
         self.timer.timeout.connect(self._tick)
@@ -418,9 +419,56 @@ class FreezeWindow(QtWidgets.QMainWindow):
         self.playing = on
         self.btn_play.setText(self.tr("Stop") if on else self.tr("Play"))
         if on:
+            self._open_audition()
             self.timer.start()
         else:
             self.timer.stop()
+            self._close_audition()
+
+    # ------------------------------------------------------------------ #
+    # Audio audition — plays the *computed* output of the engine
+    # ------------------------------------------------------------------ #
+    def _open_audition(self):
+        if self._audition_stream is not None:
+            return
+        try:
+            import sounddevice as sd
+
+            if not sd.query_devices():
+                raise RuntimeError("no audio output devices available")
+            self._audition_stream = sd.OutputStream(
+                samplerate=SR, blocksize=self.params.block_size,
+                channels=self.params.channels, dtype="float64",
+            )
+            self._audition_stream.start()
+        except Exception as exc:  # no hardware: keep the editor usable
+            self._audition_stream = None
+            self.status.showMessage(
+                self.tr("Audition unavailable (%s); running silently — every "
+                        "displayed value still comes from the live engine.") % exc
+            )
+
+    def _close_audition(self):
+        if self._audition_stream is not None:
+            try:
+                self._audition_stream.stop()
+                self._audition_stream.close()
+            finally:
+                self._audition_stream = None
+
+    def _audition(self, out: np.ndarray):
+        """Write the engine's actual output hop to the audio device."""
+        if self._audition_stream is not None:
+            try:
+                self._audition_stream.write(out)
+            except Exception as exc:
+                self._close_audition()
+                self.status.showMessage(self.tr("Audition stopped: %s") % exc)
+
+    def closeEvent(self, event):  # noqa: N802
+        self.timer.stop()
+        self._close_audition()
+        super().closeEvent(event)
 
     # ------------------------------------------------------------------ #
     # Processing loop — the same engine path as offline / real-time code
@@ -459,8 +507,9 @@ class FreezeWindow(QtWidgets.QMainWindow):
                 and t >= self.frozen_armed_at + self.params.entry_fade_sec + 0.05
             ):
                 block.fill(0.0)
-            _, report = self.engine.process_block(block)
+            out, report = self.engine.process_block(block)
             self.cursor += hop
+            self._audition(out)
             self.wave.set_play_position(self.cursor / SR)
             self._refresh_status(report)
             self.spectrum.update_snapshot(self.engine.snapshot())

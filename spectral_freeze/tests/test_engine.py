@@ -308,3 +308,92 @@ def test_reports_trace_energy_source():
     frozen_reports = [r for r in reports if r.state == FreezeState.FROZEN]
     assert frozen_reports and all(r.frozen_rms_db > -40 for r in frozen_reports)
     assert all(isinstance(r.top_frequencies_hz, list) for r in frozen_reports)
+
+
+# --------------------------------------------------------------------- #
+# Fast frozen path (phasor reuse) vs the non-reusing reference
+# --------------------------------------------------------------------- #
+def _frozen_run(reuse: bool, seconds: float = 1.5, drift_at=None, drift_hz=6.0):
+    sig = make_musical_signal(SR, seconds + 0.8, 2)
+    p = FreezeParams(sample_rate=SR, channels=2, reuse_cache=reuse)
+    eng = FreezeEngine(p)
+    hop = p.block_size
+    n_hops = sig.shape[0] // hop
+    out = np.zeros_like(sig)
+    for i in range(n_hops):
+        block = sig[i * hop : (i + 1) * hop].copy()
+        t = i * hop / SR
+        if t >= 0.6 and eng.state == FreezeState.LIVE and eng._hist_count >= eng._warmup_hops:
+            eng.freeze()
+        if drift_at is not None and t >= drift_at:
+            p.drift_compensation = drift_hz
+        out[i * hop : (i + 1) * hop] = eng.process_block(block)[0]
+    return out, eng
+
+
+def test_fast_path_matches_reference_path():
+    """Reusing static bins must reproduce the full per-bin recomputation."""
+    a, ea = _frozen_run(reuse=True)
+    b, eb = _frozen_run(reuse=False)
+    assert np.max(np.abs(a - b)) < 1e-12
+    # Every bin the reference advanced agrees to float rounding; none were
+    # left frozen by the fast path.
+    diff = np.abs(ea._frozen_spec - eb._frozen_spec)
+    assert np.max(diff) < 1e-12
+    assert np.count_nonzero(diff > 1e-12) == 0
+
+
+def test_static_bins_really_static():
+    """Bins with zero estimated frequency keep a constant complex value."""
+    _, eng = _frozen_run(reuse=True)
+    static = ~eng._active_mask
+    assert np.any(static)
+    before = eng._frozen_spec.copy()
+    eng.process_block(np.zeros((eng.p.block_size, 2)))
+    changed = np.abs(eng._frozen_spec - before) > 0
+    assert not np.any(changed & static)
+
+
+def test_drift_change_mid_freeze_matches_reference():
+    """Enabling a pitch nudge while frozen must advance every bin."""
+    a, _ = _frozen_run(reuse=True, drift_at=0.9)
+    b, _ = _frozen_run(reuse=False, drift_at=0.9)
+    assert np.max(np.abs(a - b)) < 1e-12
+
+
+def test_sample_rate_change_mid_freeze_matches_reference():
+    """Changing sample rate + drift while frozen stays consistent."""
+    sig = make_musical_signal(SR, 2.0, 1)
+
+    def run(reuse):
+        p = FreezeParams(sample_rate=SR, channels=1, reuse_cache=reuse)
+        eng = FreezeEngine(p)
+        hop = p.block_size
+        out = np.zeros_like(sig)
+        for i in range(sig.shape[0] // hop):
+            t = i * hop / SR
+            if t >= 0.6 and eng.state == FreezeState.LIVE and eng._hist_count >= eng._warmup_hops:
+                eng.freeze()
+            if t >= 1.0:
+                p.sample_rate = 96000
+                p.drift_compensation = 5.0
+            out[i * hop : (i + 1) * hop] = eng.process_block(sig[i * hop : (i + 1) * hop])[0]
+        return out
+
+    a, b = run(True), run(False)
+    assert np.all(np.isfinite(a))
+    assert np.max(np.abs(a - b)) < 1e-12
+
+
+def test_frozen_analysis_skipped_but_exit_recovers_live():
+    """Analysis is skipped while frozen yet the exit resumes live cleanly."""
+    sig = make_musical_signal(SR, 3.0, 1)
+    eng = make_engine(channels=1)
+    hop = eng.p.block_size
+    out, reports = feed_then_freeze(eng, sig, freeze_sec=0.8, release_sec=2.0)
+    states = [r.state for r in reports]
+    assert FreezeState.EXITING in states and states[-1] == FreezeState.LIVE
+    # After the exit completes, live passthrough tracks the input again.
+    assert np.all(np.isfinite(out))
+    assert np.max(np.abs(out[int(2.4 * SR) :])) > 0.01
+

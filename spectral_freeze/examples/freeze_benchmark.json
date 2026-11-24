@@ -1,0 +1,56 @@
+{
+  "sample_rate": 48000,
+  "block_size": 256,
+  "sustain_fast": {
+    "path": "reuse",
+    "us_per_hop_best": 66.75,
+    "us_per_hop_median": 67.31,
+    "realtime_budget_us_per_hop": 5333.3,
+    "frozen_frequency_drift_hz_ptp": 0.0,
+    "total_frozen_spectrum_changes": 328,
+    "hops": 21000
+  },
+  "sustain_reference": {
+    "path": "reference",
+    "us_per_hop_best": 86.7,
+    "us_per_hop_median": 87.62,
+    "realtime_budget_us_per_hop": 5333.3,
+    "frozen_frequency_drift_hz_ptp": 0.0,
+    "total_frozen_spectrum_changes": 328,
+    "hops": 21000
+  },
+  "sustain_speedup_reference_over_fast": 1.299,
+  "drag_fast": {
+    "path": "reuse",
+    "us_per_hop_best": 69.6,
+    "us_per_hop_median": 73.83,
+    "hops": 7500
+  },
+  "drag_reference": {
+    "path": "reference",
+    "us_per_hop_best": 89.74,
+    "us_per_hop_median": 91.7,
+    "hops": 7500
+  },
+  "drag_speedup_reference_over_fast": 1.289,
+  "fast_vs_reference": {
+    "hops": 750,
+    "max_bin_phase_difference_rad": 5.442321870401733e-17,
+    "max_bin_complex_difference": 3.127317220692751e-18,
+    "missed_phase_updates": 0
+  },
+  "frozen_hop_cost_breakdown_fast": {
+    "whole_hop_us": 69.0,
+    "analysis_push_us": 3.63,
+    "synthesis_us": 30.29,
+    "phase_advance_us": 21.16,
+    "report_us": 6.88,
+    "remainder_us": 7.04
+  },
+  "original_baseline": {
+    "sustain_us_per_hop_min": 153.93887532991357,
+    "drag_us_per_hop_min": 157.0387773293381
+  },
+  "sustain_speedup_original_over_optimized": 2.306,
+  "drag_speedup_original_over_optimized": 2.256
+}
